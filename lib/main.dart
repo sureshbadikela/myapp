@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const Text('hello world',
-      textDirection: TextDirection.ltr,
-      textAlign: TextAlign.center,
-      style: TextStyle(color: Colors.blue)));
+  runApp(MaterialApp(
+    theme: ThemeData(
+      primarySwatch: Colors.blue,
+    ),
+    home: Scaffold(
+      appBar: AppBar(
+        title: Text('my First Page'),
+      ),
+      body: Container(),
+    ),
+  ));
 }
