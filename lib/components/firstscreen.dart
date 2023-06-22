@@ -10,7 +10,8 @@ class FirstScreen extends StatelessWidget {
       ElevatedButton(
         onPressed: () {
           Navigator.push(
-              context, MaterialPageRoute(builder: (context) => const SecondScreen()));
+            // navigation form one component to other component without path, with aid of component pass to builder method
+              context, MaterialPageRoute(builder: (context) => const SecondScreen())); 
         },
         child: const Text('Button',
             style: TextStyle(
