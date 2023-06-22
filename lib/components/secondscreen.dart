@@ -1,13 +1,8 @@
-// import 'package:app/components/design.dart';
-// import 'package:app/components/_container.dart';
-// import 'package:app/components/form.dart';
-import 'package:app/components/alert.dart';
-import 'package:app/components/firstscreen.dart';
-import 'package:app/components/mycomponent.dart';
 import 'package:flutter/material.dart';
 
-class Home extends StatelessWidget {
-  const Home({super.key});
+class SecondScreen extends StatelessWidget {
+  const SecondScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,17 +26,19 @@ class Home extends StatelessWidget {
         centerTitle: true,
         automaticallyImplyLeading: true,
       ),
-
-      body: const FirstScreen(),
-
+      body: const Text(
+        'Welcome to Second Screen',
+        textAlign: TextAlign.right,
+        style: TextStyle(fontSize: 15, color: Colors.blue, wordSpacing: 1.2),
+      ),
       floatingActionButton: FloatingActionButton(
           tooltip: 'hello',
           onPressed: () {
             var snackbar = SnackBar(
               //snack bar apply
-              
-              showCloseIcon:true,
-              closeIconColor:Colors.white,
+
+              showCloseIcon: true,
+              closeIconColor: Colors.white,
               duration: const Duration(seconds: 2),
               content: const Text('clicked this button'),
               backgroundColor: Colors.green,
@@ -58,5 +55,6 @@ class Home extends StatelessWidget {
           },
           child: const Text('click')),
     );
+    ;
   }
 }
