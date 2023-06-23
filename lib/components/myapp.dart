@@ -6,6 +6,7 @@ import 'package:app/components/checkboxelement.dart';
 import 'package:app/components/datepick.dart';
 import 'package:app/components/dropdown.dart';
 import 'package:app/components/firstLayout.dart';
+import 'package:app/components/homepage.dart';
 import 'package:app/components/mycomponent.dart';
 import 'package:app/components/mydrawerlayout.dart';
 import 'package:app/components/radio.dart';
@@ -19,11 +20,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home:   FirstLayout());
+        home: HomePage());
   }
 }

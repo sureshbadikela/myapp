@@ -21,6 +21,7 @@ class FirstLayout extends StatelessWidget {
         title: const Text('Flutter layout demo'),
       ),
       body: ListView(
+         physics:AlwaysScrollableScrollPhysics(),
         children: [
           Image.network(
             'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Wular_Lake_1.jpg/1200px-Wular_Lake_1.jpg',
