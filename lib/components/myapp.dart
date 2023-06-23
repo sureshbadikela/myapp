@@ -3,6 +3,7 @@
 import 'package:app/components/appactionmenu.dart';
 import 'package:app/components/botttomnav.dart';
 import 'package:app/components/checkboxelement.dart';
+import 'package:app/components/datepick.dart';
 import 'package:app/components/dropdown.dart';
 import 'package:app/components/mycomponent.dart';
 import 'package:app/components/mydrawerlayout.dart';
@@ -21,6 +22,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home:   AppActionMenu());
+        home:   DatePicker());
   }
 }
