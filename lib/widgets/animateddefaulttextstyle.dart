@@ -26,8 +26,11 @@ class _AnimatedDefaultTextStyleExampleState
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            //The AnimatedDefaultTextStyle widget in Flutter allows you to animate the transition between different text styles.
+            // It smoothly animates changes in properties such as font size, color, weight, and more, providing a visually appealing effect
+            // when transitioning between different text styles.
             AnimatedDefaultTextStyle(
-              duration: Duration(seconds: 2),
+              duration: Duration(seconds: 1),
               style: _isBigText
                   ? TextStyle(fontSize: 24, fontWeight: FontWeight.bold,color: Colors.amber)
                   : TextStyle(fontSize: 16, fontWeight: FontWeight.normal,color: Colors.blueGrey),

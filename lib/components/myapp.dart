@@ -18,10 +18,17 @@ import 'package:app/widgets/actionsfile.dart';
 import 'package:app/widgets/align.dart';
 import 'package:app/widgets/alignmenttransition.dart';
 import 'package:app/widgets/animateBuilder.dart';
+import 'package:app/widgets/animatedModalBarier.dart';
+import 'package:app/widgets/animatedOPacity.dart';
+import 'package:app/widgets/animatedPosition.dart';
 import 'package:app/widgets/animatedalign.dart';
 import 'package:app/widgets/animatedcontainer.dart';
 import 'package:app/widgets/animatedcrossfade.dart';
 import 'package:app/widgets/animateddefaulttextstyle.dart';
+import 'package:app/widgets/animatedfractionallysizexbox.dart';
+import 'package:app/widgets/animatedgrid.dart';
+import 'package:app/widgets/animatedlist.dart';
+import 'package:app/widgets/animatedphysicalmode.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -34,7 +41,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home:AnimatedDefaultTextStyleExample());
+        home:AnimatedPositionedExample());
   }
 }
 
