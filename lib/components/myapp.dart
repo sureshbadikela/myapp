@@ -12,6 +12,16 @@ import 'package:app/components/mydrawerlayout.dart';
 import 'package:app/components/radio.dart';
 import 'package:app/components/sharedprefernce.dart';
 import 'package:app/components/switchElement.dart';
+import 'package:app/widgets/absorverpoint.dart';
+import 'package:app/widgets/accumulator.dart';
+import 'package:app/widgets/actionsfile.dart';
+import 'package:app/widgets/align.dart';
+import 'package:app/widgets/alignmenttransition.dart';
+import 'package:app/widgets/animateBuilder.dart';
+import 'package:app/widgets/animatedalign.dart';
+import 'package:app/widgets/animatedcontainer.dart';
+import 'package:app/widgets/animatedcrossfade.dart';
+import 'package:app/widgets/animateddefaulttextstyle.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -20,10 +30,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
+        // debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: HomePage());
+        home:AnimatedDefaultTextStyleExample());
   }
 }
+
+
+
+
