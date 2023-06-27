@@ -21,6 +21,7 @@ import 'package:app/widgets/animateBuilder.dart';
 import 'package:app/widgets/animatedModalBarier.dart';
 import 'package:app/widgets/animatedOPacity.dart';
 import 'package:app/widgets/animatedPosition.dart';
+import 'package:app/widgets/animatedPositionedDirectional.dart';
 import 'package:app/widgets/animatedalign.dart';
 import 'package:app/widgets/animatedcontainer.dart';
 import 'package:app/widgets/animatedcrossfade.dart';
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home:AnimatedPositionedExample());
+        home:AnimatedPositionedDirectionalExample());
   }
 }
 
