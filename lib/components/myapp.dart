@@ -47,6 +47,8 @@ import 'package:app/widgets/boxContrains.dart';
 import 'package:app/widgets/changeNotifier.dart';
 import 'package:app/widgets/clipOval.dart';
 import 'package:app/widgets/custompaint.dart';
+import 'package:app/widgets/decoratedbox.dart';
+import 'package:app/widgets/decoratedboxtransition.dart';
 import 'package:flutter/material.dart';
 
 import 'customScrollView.dart';
@@ -61,7 +63,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home:CustomScrollViewExample());
+        home:DecoratedBoxTransitionExample());
   }
 }
 
