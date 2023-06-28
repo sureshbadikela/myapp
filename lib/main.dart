@@ -8,6 +8,9 @@ import 'package:app/widgets/colorFilter.dart';
 import 'package:app/widgets/colorFiltered.dart';
 import 'package:app/widgets/conpoundAnimation.dart';
 import 'package:app/widgets/custommultichildlayout.dart';
+import 'package:app/widgets/expanded.dart';
+import 'package:app/widgets/fadein.dart';
+import 'package:app/widgets/fadetransition.dart';
 import 'package:flutter/material.dart';
 import 'package:characters/characters.dart';
 import 'package:provider/provider.dart';
@@ -16,6 +19,7 @@ void main() {
   // runApp( ExampleApp()); 
   runApp(MyApp());
 }
+
 
 // navigate with path
 // void main() {

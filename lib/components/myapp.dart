@@ -47,10 +47,23 @@ import 'package:app/widgets/boxContrains.dart';
 import 'package:app/widgets/changeNotifier.dart';
 import 'package:app/widgets/clipOval.dart';
 import 'package:app/widgets/custompaint.dart';
+import 'package:app/widgets/deafaultmenudelegate.dart';
 import 'package:app/widgets/decoratedbox.dart';
 import 'package:app/widgets/decoratedboxtransition.dart';
+import 'package:app/widgets/drag.dart';
+import 'package:app/widgets/editabletext.dart';
+import 'package:app/widgets/fittedbox.dart';
+import 'package:app/widgets/fixedscrollExtent.dart';
+import 'package:app/widgets/flex.dart';
+import 'package:app/widgets/flow.dart';
+import 'package:app/widgets/focus.dart';
+import 'package:app/widgets/form.dart';
+import 'package:app/widgets/formOne.dart';
+import 'package:app/widgets/formTwo.dart';
 import 'package:flutter/material.dart';
 
+import '../widgets/fractiuonallysizedbox.dart';
+import '../widgets/futurevuilder.dart';
 import 'customScrollView.dart';
 
 class MyApp extends StatelessWidget {
@@ -63,12 +76,9 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home:DecoratedBoxTransitionExample());
+        home: Scaffold(
+        // appBar: AppBar(title: const Text('Form Sample')),
+        body:  Futuredata(),
+      ));
   }
 }
-
-
-
-
-
-

@@ -39,7 +39,6 @@ class Home extends StatelessWidget {
           onPressed: () {
             var snackbar = SnackBar(
               //snack bar apply
-              
               showCloseIcon:true,
               closeIconColor:Colors.white,
               duration: const Duration(seconds: 2),
