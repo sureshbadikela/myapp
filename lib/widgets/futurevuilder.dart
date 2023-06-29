@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+/* The FutureBuilder widget is a powerful tool for handling asynchronous data and updating the UI based on different states.
+ It simplifies the process of handling and displaying data from Futures in a clean and concise manner. */
+
 Future<String> fetchData() {
   return Future.delayed(Duration(seconds: 2), () => 'Data loaded');
 }
