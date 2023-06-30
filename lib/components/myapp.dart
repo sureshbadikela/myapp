@@ -85,6 +85,8 @@ import 'package:app/widgets/loclizations.dart';
 import 'package:app/widgets/longpressdraggable.dart';
 import 'package:app/widgets/mediaquery.dart';
 import 'package:app/widgets/mergescematics.dart';
+import 'package:app/widgets/metadata.dart';
+import 'package:app/widgets/modaelbarrier.dart';
 import 'package:app/widgets/rawkeybordlistner.dart';
 import 'package:app/widgets/rawkeyevent.dart';
 import 'package:flutter/material.dart';
@@ -107,7 +109,7 @@ class MyApp extends StatelessWidget {
         ),
         home: Scaffold(
         // appBar: AppBar(title: const Text('Form Sample')),
-        body:  MergeSemanticsExample (),
+        body:  MyModalDialog (),
       ));
   }
 }
