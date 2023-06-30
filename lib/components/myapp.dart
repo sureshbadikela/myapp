@@ -61,6 +61,7 @@ import 'package:app/widgets/form.dart';
 import 'package:app/widgets/formOne.dart';
 import 'package:app/widgets/formTwo.dart';
 import 'package:app/widgets/glowingscrollview.dart';
+import 'package:app/widgets/gradient.dart';
 import 'package:app/widgets/image.dart';
 import 'package:app/widgets/imagefilter.dart';
 import 'package:app/widgets/imageicon.dart';
@@ -69,6 +70,21 @@ import 'package:app/widgets/indexedstackclass.dart';
 import 'package:app/widgets/inlinespan.dart';
 import 'package:app/widgets/interctiveviewer.dart';
 import 'package:app/widgets/layerlink.dart';
+import 'package:app/widgets/layoutbuilder.dart';
+import 'package:app/widgets/layoutid.dart';
+import 'package:app/widgets/limitedbox.dart';
+import 'package:app/widgets/linearborder.dart';
+import 'package:app/widgets/listbody.dart';
+import 'package:app/widgets/listner.dart';
+import 'package:app/widgets/listwheelscrollview.dart';
+import 'package:app/widgets/listview.dart';
+import 'package:app/widgets/locale.dart';
+import 'package:app/widgets/localhistroyentry.dart';
+import 'package:app/widgets/localkey.dart';
+import 'package:app/widgets/loclizations.dart';
+import 'package:app/widgets/longpressdraggable.dart';
+import 'package:app/widgets/mediaquery.dart';
+import 'package:app/widgets/mergescematics.dart';
 import 'package:app/widgets/rawkeybordlistner.dart';
 import 'package:app/widgets/rawkeyevent.dart';
 import 'package:flutter/material.dart';
@@ -91,7 +107,7 @@ class MyApp extends StatelessWidget {
         ),
         home: Scaffold(
         // appBar: AppBar(title: const Text('Form Sample')),
-        body:  layerlink (),
+        body:  MergeSemanticsExample (),
       ));
   }
 }
