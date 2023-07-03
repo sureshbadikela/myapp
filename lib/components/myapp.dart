@@ -14,6 +14,7 @@ import 'package:app/components/radio.dart';
 import 'package:app/components/sharedprefernce.dart';
 import 'package:app/components/switchElement.dart';
 import 'package:app/widgets/BackdropFilter.dart';
+import 'package:app/widgets/Table.dart';
 import 'package:app/widgets/absorverpoint.dart';
 import 'package:app/widgets/accumulator.dart';
 import 'package:app/widgets/actionsfile.dart';
@@ -87,8 +88,38 @@ import 'package:app/widgets/mediaquery.dart';
 import 'package:app/widgets/mergescematics.dart';
 import 'package:app/widgets/metadata.dart';
 import 'package:app/widgets/modaelbarrier.dart';
+import 'package:app/widgets/mouseRegion.dart';
+import 'package:app/widgets/mousecursor.dart';
+import 'package:app/widgets/navigationtoolbar.dart';
+import 'package:app/widgets/notification.dart';
+import 'package:app/widgets/orientationbuilder.dart';
+import 'package:app/widgets/overflowbox.dart';
+import 'package:app/widgets/overlay.dart';
+import 'package:app/widgets/pageStorage.dart';
+import 'package:app/widgets/pageroute.dart';
+import 'package:app/widgets/pageroutebuilder.dart';
+import 'package:app/widgets/pageview.dart';
+import 'package:app/widgets/positioned.dart';
+import 'package:app/widgets/preferedsize.dart';
+import 'package:app/widgets/rawautocomplete.dart';
 import 'package:app/widgets/rawkeybordlistner.dart';
 import 'package:app/widgets/rawkeyevent.dart';
+import 'package:app/widgets/richText.dart';
+import 'package:app/widgets/safearea.dart';
+import 'package:app/widgets/scematics.dart';
+import 'package:app/widgets/sizedbox.dart';
+import 'package:app/widgets/streambuilder.dart';
+import 'package:app/widgets/tapandhorizontalgetsturedetector.dart';
+import 'package:app/widgets/tapdowndetails.dart';
+import 'package:app/widgets/tapdragevents.dart';
+import 'package:app/widgets/textdecoration.dart';
+import 'package:app/widgets/texteditingvalue.dart';
+import 'package:app/widgets/textedititngcontoll.dart';
+import 'package:app/widgets/textinputtype.dart';
+import 'package:app/widgets/textposition.dart';
+import 'package:app/widgets/textrange.dart';
+import 'package:app/widgets/textselection.dart';
+import 'package:app/widgets/videoplayer.dart';
 import 'package:flutter/material.dart';
 
 import '../widgets/fractiuonallysizedbox.dart';
@@ -109,7 +140,7 @@ class MyApp extends StatelessWidget {
         ),
         home: Scaffold(
         // appBar: AppBar(title: const Text('Form Sample')),
-        body:  MyModalDialog (),
+        body:  VideoPlayerScreen (),
       ));
   }
 }
